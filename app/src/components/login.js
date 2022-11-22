@@ -12,7 +12,7 @@ const Login = () => {
             </form>
             <div style={{display: "flex", justifyContent: "space-between"}}>
                 <button style={{width: "50%"}}>Login</button>
-                <button style={{width: "50%"}}>Signup</button>
+                <button style={{width: "50%"}}>Register</button>
             </div>
         </div>
     );
