@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
     return (
-        <div>
+        <div style={{margin: "auto", width: "25%"}}>
             <h1>Login</h1>
             <form action="">
                 <label htmlFor="username">Username: </label>
@@ -10,8 +10,10 @@ const Login = () => {
                 <label htmlFor="password">Password: </label>
                 <input type="text" defaultValue="Password"/><br /><br />
             </form>
-            <button>Login</button>
-            <button>Signup</button>
+            <div style={{display: "flex", justifyContent: "space-between"}}>
+                <button style={{width: "50%"}}>Login</button>
+                <button style={{width: "50%"}}>Signup</button>
+            </div>
         </div>
     );
 };
